@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node build/server.js",
-    "dev": "tsnd -r tsconfig-paths --ignore-watch node_modules --respawn --transpile-only",
+    "dev": "tsnd -r tsconfig-paths --ignore-watch node_modules --respawn --transpile-only src/server.ts",
     "build": "yarn tsc"
   },
   "keywords": [
