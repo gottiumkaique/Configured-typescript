@@ -1,0 +1,21 @@
+{
+  "name": "configured-typescript",
+  "version": "1.0.0",
+  "description": "TypeScript configurado pronto para usar",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/server.js",
+    "dev": "tsnd -r tsconfig-paths --ignore-watch node_modules --respawn --transpile-only",
+    "build": "yarn tsc"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "Kaique Araújo",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.56",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.9.7"
+  }
+}
